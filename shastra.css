@@ -448,12 +448,15 @@ nav .menu-bar i:hover{
     height: 80px;
     border-radius: 50%;
     /* border: solid white; */
+    object-fit: contain;
 }
 .feedbacks .feedback-container .feedback1 .img img,.feedback2 .img img,.feedback3 .img img{
     height: 100%;
     width: 100%;
     border-radius: 50%;
-    background-size: contain;
+/*     background-size: contain; */
+    background-size: cover;
+    background-position: center
 }
 
 .feedbacks .feedback-container .feedback1 .student1,.feedback2 .student2,.feedback3 .student3{
